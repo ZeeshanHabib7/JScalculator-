@@ -1,0 +1,69 @@
+body{
+    background-image: url("jpg");
+}
+#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #div, #per, #clear{
+    margin-bottom:11px;
+}
+#text{
+    border:1px solid rgb(133, 112, 228);
+    margin:20px;
+    width:282px;
+    height:38px;
+    padding:10px;
+    text-align: right;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: default;
+}
+#Main{
+    position: absolute;
+    height:430px;
+    width:346px;
+    left:470px;
+    top:100px;
+    border:5px solid rgba(190, 196, 196, 0.596);
+    background-color: black; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px red;
+}
+#zero{
+    width:148px;
+}
+#equal{
+    background-color: #0eec0e;
+    border-color: gold;
+}
+#clear, #delete{
+    background-color: #ff0000;
+    border-color: gold;
+}
+#clear:hover{
+    background-color: #b5304a;
+}
+#equal:hover{
+    background-color: #298429;
+}
+#delete:hover{
+    background-color: #b5304a;
+}
+
+input:hover{
+    background-color: white;
+}
+input{
+    width:70px;
+    height:50px;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+}
+#buttons{
+    position: absolute;
+    height:290px;
+    top:100px;
+    width:305px;
+    margin:20px;
+    bottom:70px;
+}
